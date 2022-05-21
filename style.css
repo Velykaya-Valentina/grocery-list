@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  /*font-family: 'Gloria Hallelujah', cursive;*/
+  font-family: 'Caveat', cursive;
+  background-color: #ffa500;
+}
+.container {
+  width: 90%;
+  min-height: 100vh;
+  margin: auto;
+}
+.row {
+  width: 600px;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 10px 10px 24px 0 rgba(0, 0, 0, 0.5);
+}
+.groceries {
+  flex: 1 0 auto;
+}
+.groceries h1 {
+  font-size: 2.5rem;
+  margin-top: 1em;
+}
+.groceries i {
+  font-size: 2.5rem;
+  color: orange;
+}
+.groceries input {
+  font-family: inherit;
+  font-size: 2rem;
+  outline: 0;
+  border: 0;
+  border-bottom: 3px solid #000;
+  width: 70%;
+}
+#allItems h2 {
+  margin: 10px 10px 0 50px;
+  font-size: 2rem;
+  cursor: grabbing;
+}
+.clear {
+  margin-top: 10px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.clear-list {
+  font-size: 1.5rem;
+}
+.clear i {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  color: #ffa500;
+  cursor: pointer;
+}
